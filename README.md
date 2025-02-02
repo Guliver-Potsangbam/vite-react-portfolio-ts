@@ -1,50 +1,97 @@
-# React + TypeScript + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built using Vite, React, and TypeScript. It showcases my skills, projects, and experience as a developer.
 
-Currently, two official plugins are available:
+## Features
+- 🚀 Fast performance with Vite
+- 🎨 Modern and responsive design
+- 🌙 Dark mode support
+- 📱 Fully responsive layout
+- ⚡ Optimized for SEO
+- 🔥 Smooth animations
+- 📂 Project showcase section
+- 📧 Contact form integration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** React, TypeScript, Vite
+- **Styling:** Tailwind CSS / SCSS
+- **Animations:** Framer Motion
+- **Deployment:** Vercel / Netlify
 
-## Expanding the ESLint configuration
+## Installation & Setup
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/your-portfolio.git
+   cd your-portfolio
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+2. **Install dependencies:**
+   ```sh
+   npm install  # or yarn install
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+3. **Run the development server:**
+   ```sh
+   npm run dev  # or yarn dev
+   ```
+
+4. **Build for production:**
+   ```sh
+   npm run build  # or yarn build
+   ```
+
+5. **Preview the build:**
+   ```sh
+   npm run preview  # or yarn preview
+   ```
+
+## Folder Structure
+```
+/your-portfolio
+│── public/         # Static assets
+│── src/
+│   ├── components/ # Reusable components
+│   ├── pages/      # Page components
+│   ├── styles/     # Global styles
+│   ├── assets/     # Images, icons, etc.
+│   ├── hooks/      # Custom React hooks
+│   ├── utils/      # Helper functions
+│── vite.config.ts  # Vite configuration
+│── tsconfig.json   # TypeScript configuration
+│── package.json    # Dependencies and scripts
+│── README.md       # Project documentation
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Deployment
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+To deploy the site, use platforms like **Vercel** or **Netlify**:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### Deploy to Vercel
+```sh
+vercel
 ```
+
+### Deploy to Netlify
+```sh
+netlify deploy
+```
+
+## Contributing
+If you’d like to improve this project, feel free to fork the repo and submit a pull request. Any contributions are welcome! 🚀
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+### Contact
+📧 Email: your.email@example.com  
+🌐 Portfolio: [your-website.com](https://your-website.com)  
+🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
+💼 LinkedIn: [your-linkedin](https://linkedin.com/in/yourprofile)
+
+---
+
+Made with ❤️ by BTM Coders
+
