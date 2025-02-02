@@ -9,6 +9,7 @@ function App() {
           <li>Home</li>
           <li>Blog</li>
           <li>About</li>
+          <li>Contact</li>
         </ul>
       </div>
       <Blog />
