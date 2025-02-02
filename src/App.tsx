@@ -8,6 +8,7 @@ function App() {
         <ul>
           <li>Home</li>
           <li>Blog</li>
+          <li>About</li>
         </ul>
       </div>
       <Blog />
